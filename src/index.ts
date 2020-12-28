@@ -1,3 +1,12 @@
-const hello: string = "Hello World";
+import './datetypes';
+import './enums';
+import './interfaces';
+import './functions';
+import './class';
+import './generics';
+import './advanced';
+import './merge';
 
-document.querySelector("#root")?.append(hello);
+const hello: string = 'Hello World';
+
+document.querySelector('#root')?.append(hello);
